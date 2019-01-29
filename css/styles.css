@@ -7,7 +7,7 @@ background-position: top center;
 }
 
 .jumbotron-fluid::after{
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .8);
 	position: absolute;
 	content: "";
 	top: 0;
