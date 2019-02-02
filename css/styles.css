@@ -17,14 +17,17 @@ background-position: top center;
     z-index: 2;  
 }
 
-.main, .brand, .social{ z-index: 1000;  
+.main, .brand, .social, .info{ z-index: 1000;  
  }
 
+.brand{margin-top:3rem;}
+.info{font-size:.8rem;}
 
 h1{font-size:3rem;
 line-height: 1;
 font-weight: 200;
-padding-bottom: .7rem;}
+padding-bottom: .8rem;
+padding-top:7px;}
 
 h2{font-size:1.1rem;
 line-height: 1.6;
