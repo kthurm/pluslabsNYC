@@ -19,6 +19,9 @@ background-position: top center;
     height: 100%;
     z-index: 2;  
 }
+.box{box-shadow: 0px 8px 12px -3px rgba(0,0,0,0.51);
+-webkit-box-shadow: 0px 8px 12px -3px rgba(0,0,0,0.51);
+-moz-box-shadow: 0px 8px 12px -3px rgba(0,0,0,0.51);}
 
  .main-wrap{border-top: 2px solid #f7941e;
  	border-bottom: 2px solid #f7941e;
