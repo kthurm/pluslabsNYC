@@ -1,12 +1,15 @@
 body{font-family: 'Raleway', sans-serif;}
 
+a{color:#f7941e;
+font-weight: bold;}
+
 .jumbotron-fluid{
 background: url(../img/BG.jpg);
 background-size:cover;
 background-position: top center;
 }
 
-body::after{
+.jumbotron-fluid::after{
 	background: rgba(255, 255, 255, .7);
 	position: absolute;
 	content: "";
@@ -17,10 +20,14 @@ body::after{
     z-index: 2;  
 }
 
+ .main-wrap{border-top: 2px solid #f7941e;
+ 	border-bottom: 2px solid #f7941e;
+    z-index: 1000;}
+
 .main, .brand, .social, .info{ z-index: 1000;  
  }
 
-.brand{margin-top:3rem;}
+.brand{}
 .info{font-size:.8rem;}
 
 h1{font-size:3rem;
@@ -36,3 +43,10 @@ font-weight: 500;}
 
 .fab, .fas{color: #f7941e;}
 .fab:hover, .fas:hover{color: #666;}
+
+
+@media (min-width: 768px) {
+.jumbotron-fluid::after{
+    height: 100%;
+}
+}
