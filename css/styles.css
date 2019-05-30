@@ -47,7 +47,6 @@ font-weight: 500;}
 .fab, .fas{color: #f7941e;}
 .fab:hover, .fas:hover{color: #666;}
 
-
 @media (min-width: 768px) {
 .jumbotron-fluid::after{
     height: 100%;
